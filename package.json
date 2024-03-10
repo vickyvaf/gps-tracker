@@ -2,7 +2,11 @@
   "name": "@gps-tracker/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "web:dev": "npx nx run web:dev",
+    "web:build": "npx nx run web:build",
+    "web:start": "npx nx run web:start"
+  },
   "private": true,
   "dependencies": {
     "next": "14.0.4",
