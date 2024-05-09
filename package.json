@@ -6,7 +6,7 @@
     "web:dev": "npx nx run web:dev",
     "web:build": "npx nx run web:build",
     "web:start": "npx nx run web:start",
-    "mobile:dev": "npx nx run mobile:dev"
+    "mobile:dev": "npx nx serve mobile"
   },
   "private": true,
   "dependencies": {
